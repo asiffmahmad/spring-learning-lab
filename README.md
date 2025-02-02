@@ -98,18 +98,11 @@ Using Maven:
 mvn clean install
 mvn spring-boot:run
 ```
-Using Gradle:  
-```sh
-./gradlew build
-./gradlew bootRun
-```
 
 ### 3️⃣ Run Tests  
 ```sh
 mvn test  # For Maven projects
-./gradlew test  # For Gradle projects
 ```
-
 ---
 
 ## 📌 Contribution Guidelines  
