@@ -1,0 +1,171 @@
+{
+  "controllers": {
+    "SpringCoreController": {
+      "package": "com.learnspring.lab.core",
+      "endpoints": [
+        {
+          "method": "GET",
+          "url": "/core/info",
+          "description": "Retrieves Spring Core details",
+          "sampleRequest": null,
+          "sampleResponse": {
+            "message": "Spring Core Module",
+            "status": "Success"
+          }
+        }
+      ]
+    },
+    "SpringBootController": {
+      "package": "com.learnspring.lab.boot",
+      "endpoints": [
+        {
+          "method": "GET",
+          "url": "/boot/info",
+          "description": "Provides Spring Boot information",
+          "sampleRequest": null,
+          "sampleResponse": {
+            "version": "3.1.2",
+            "description": "Spring Boot Example"
+          }
+        }
+      ]
+    },
+    "MvcController": {
+      "package": "com.learnspring.lab.mvc",
+      "endpoints": [
+        {
+          "method": "POST",
+          "url": "/mvc/greet",
+          "description": "Greets the user",
+          "sampleRequest": {
+            "name": "John"
+          },
+          "sampleResponse": {
+            "message": "Hello, John!"
+          }
+        }
+      ]
+    },
+    "JpaController": {
+      "package": "com.learnspring.lab.jpa",
+      "endpoints": [
+        {
+          "method": "GET",
+          "url": "/jpa/users",
+          "description": "Fetches all users",
+          "sampleRequest": null,
+          "sampleResponse": [
+            {
+              "id": 1,
+              "name": "Alice",
+              "email": "alice@example.com"
+            },
+            {
+              "id": 2,
+              "name": "Bob",
+              "email": "bob@example.com"
+            }
+          ]
+        }
+      ]
+    },
+    "SecurityController": {
+      "package": "com.learnspring.lab.security",
+      "endpoints": [
+        {
+          "method": "POST",
+          "url": "/security/login",
+          "description": "Handles user login",
+          "sampleRequest": {
+            "username": "admin",
+            "password": "password123"
+          },
+          "sampleResponse": {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5c..."
+          }
+        }
+      ]
+    },
+    "CloudController": {
+      "package": "com.learnspring.lab.cloud",
+      "endpoints": [
+        {
+          "method": "GET",
+          "url": "/cloud/service-status",
+          "description": "Checks cloud service availability",
+          "sampleRequest": null,
+          "sampleResponse": {
+            "service": "Eureka",
+            "status": "Running"
+          }
+        }
+      ]
+    },
+    "MessagingController": {
+      "package": "com.learnspring.lab.messaging",
+      "endpoints": [
+        {
+          "method": "POST",
+          "url": "/messaging/send",
+          "description": "Sends a message via Kafka",
+          "sampleRequest": {
+            "topic": "notifications",
+            "message": "New order placed"
+          },
+          "sampleResponse": {
+            "status": "Message sent successfully"
+          }
+        }
+      ]
+    },
+    "ActiveMqController": {
+      "package": "com.learnspring.lab.activemq",
+      "endpoints": [
+        {
+          "method": "POST",
+          "url": "/activemq/send",
+          "description": "Sends a message via ActiveMQ",
+          "sampleRequest": {
+            "queue": "orders",
+            "message": "Order ID: 12345"
+          },
+          "sampleResponse": {
+            "status": "Message sent successfully"
+          }
+        }
+      ]
+    },
+    "BatchController": {
+      "package": "com.learnspring.lab.batch",
+      "endpoints": [
+        {
+          "method": "POST",
+          "url": "/batch/start",
+          "description": "Triggers a batch job",
+          "sampleRequest": {
+            "jobName": "dataCleanup"
+          },
+          "sampleResponse": {
+            "jobId": "batch-001",
+            "status": "Running"
+          }
+        }
+      ]
+    },
+    "WebFluxController": {
+      "package": "com.learnspring.lab.webflux",
+      "endpoints": [
+        {
+          "method": "GET",
+          "url": "/webflux/stream",
+          "description": "Streams data reactively",
+          "sampleRequest": null,
+          "sampleResponse": [
+            { "id": 1, "value": "Event 1" },
+            { "id": 2, "value": "Event 2" }
+          ]
+        }
+      ]
+    }
+  }
+}
