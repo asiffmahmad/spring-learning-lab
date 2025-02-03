@@ -22,7 +22,6 @@ public class Program1 {
 		String value = optional.get();  // Throws NoSuchElementException
 		
 		System.out.println(optional);
-
 	}
 	
 	
