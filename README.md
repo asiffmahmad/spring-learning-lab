@@ -17,7 +17,7 @@ This repository is created to:
 
 ---
 
-## 🏗 Project Structure  
+## 🏧 Project Structure  
 ```
 spring-learning-lab/
 │── src/main/java/com/learnspring/lab/
@@ -53,7 +53,7 @@ This repository will cover the following technologies:
 
 ---
 
-## 📖 Learning Approach  
+## 📚 Learning Approach  
 To maximize learning, the approach will be:  
 1. **Choose a Spring topic** (e.g., Spring Boot REST API).  
 2. **Build small hands-on exercises** for practical learning.  
@@ -70,18 +70,19 @@ Each learning topic will have:
 
 ## 🚀 Controllers & Endpoints  
 
-| Topic               | Controller Name       | Package                        | Endpoint   |
-|---------------------|----------------------|--------------------------------|------------|
-| Spring Core        | `SpringCoreController`  | `com.learnspring.lab.core`    | `/core`    |
-| Spring Boot        | `SpringBootController` | `com.learnspring.lab.boot`    | `/boot`    |
-| Spring MVC         | `MvcController`        | `com.learnspring.lab.mvc`     | `/mvc`     |
-| Spring Data JPA    | `JpaController`        | `com.learnspring.lab.jpa`     | `/jpa`     |
-| Spring Security    | `SecurityController`   | `com.learnspring.lab.security` | `/security` |
-| Spring Cloud       | `CloudController`      | `com.learnspring.lab.cloud`   | `/cloud`   |
-| Spring Messaging   | `MessagingController`  | `com.learnspring.lab.messaging` | `/messaging` |
-| Spring ActiveMQ    | `ActiveMqController`   | `com.learnspring.lab.activemq` | `/activemq` |
-| Spring Batch       | `BatchController`      | `com.learnspring.lab.batch`   | `/batch`   |
-| Spring WebFlux     | `WebFluxController`    | `com.learnspring.lab.webflux` | `/webflux` |
+| Topic               | Controller Name           | Package                        | Endpoint   |
+|---------------------|--------------------------|--------------------------------|------------|
+| Spring Core        | `SpringCoreController`    | `com.learnspring.lab.core`    | `/core`    |
+| Spring Boot        | `SpringBootController`   | `com.learnspring.lab.boot`    | `/boot`    |
+| Spring MVC         | `MvcController`          | `com.learnspring.lab.mvc`     | `/mvc`     |
+| Spring Data JPA    | `JpaController`          | `com.learnspring.lab.jpa`     | `/jpa`     |
+| Spring Security    | `SecurityController`     | `com.learnspring.lab.security` | `/security` |
+| Spring Cloud       | `CloudController`        | `com.learnspring.lab.cloud`   | `/cloud`   |
+| Spring Messaging   | `MessagingController`    | `com.learnspring.lab.messaging` | `/messaging` |
+| Spring ActiveMQ    | `ActiveMqController`     | `com.learnspring.lab.activemq` | `/activemq` |
+| Spring Batch       | `BatchController`        | `com.learnspring.lab.batch`   | `/batch`   |
+| Spring WebFlux     | `WebFluxController`      | `com.learnspring.lab.webflux` | `/webflux` |
+| Messaging Service  | `MessageServiceController` | `com.learnspring.lab.messaging` | `/message-service` |
 
 ---
 
@@ -122,4 +123,3 @@ This is a self-learning project, and all examples are created for educational pu
 Happy Learning & Coding! 🚀  
 
 ---
-
